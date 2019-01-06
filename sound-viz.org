@@ -1,0 +1,16 @@
+* sound-viz
+** About
+
+Graphic visualization of sound coming from sound card line input.
+
+** License
+ISC
+
+Copyright (c) 2019 Jeremiah LaRocco <jeremiah_larocco@fastmail.com>
+
+
+
+* Plan
+** TODO Add playback.
+** TODO Simple FFT visualization.
+** TODO Port earlier Qt visualizations.
