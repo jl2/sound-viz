@@ -15,6 +15,12 @@
 ;; ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ;; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-(defpackage :sound-viz
+(defpackage #:sound-viz
   (:use #:cl #:j-utils #:alexandria)
-  (:export #:hello))
+  (:export #:live-listen
+           #:sound-controller
+           #:create-sound-controller
+           #:destroy-sound-controller
+           #:stop-playback
+           #:start-playback
+           ))

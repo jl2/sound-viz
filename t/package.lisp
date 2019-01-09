@@ -15,17 +15,17 @@
 ;; ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ;; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-(in-package :cl-user)
-(defpackage :sound-viz.test
-  (:use :cl
-        :fiveam
-        :alexandria
-        :sound-viz))
+(in-package #:cl-user)
+(defpackage #:sound-viz.test
+  (:use #:cl
+        #:fiveam
+        #:alexandria
+        #:sound-viz))
 
-(in-package :sound-viz.test)
+(in-package #:sound-viz.test)
 
 (def-suite :sound-viz)
 (in-suite :sound-viz)
 
-(test hello
-  (is-true (hello)))
+;; (test hello
+;;   (is-true (hello)))

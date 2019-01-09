@@ -15,10 +15,10 @@
 ;; ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ;; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-(in-package :cl-user)
-(defpackage :sound-viz.test-asd
-  (:use :cl :asdf))
-(in-package :sound-viz.test-asd)
+(in-package #:cl-user)
+(defpackage #:sound-viz.test-asd
+  (:use #:cl #:asdf))
+(in-package #:sound-viz.test-asd)
 
 (asdf:defsystem #:sound-viz.test
   :description "Test sound-viz"
@@ -26,8 +26,8 @@
   :license  "ISC"
   :version "0.0.1"
   :serial t
-  :depends-on ( :sound-viz
-                  :fiveam)
+  :depends-on ( #:sound-viz
+                  #:fiveam)
   
   :components ((:module "t"
                         :components 

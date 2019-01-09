@@ -21,7 +21,7 @@
   :license  "ISC"
   :version "0.0.1"
   :serial t
-  :depends-on (#:also-alsa #:j-utils #:alexandria #:clgl)
+  :depends-on (#:also-alsa #:j-utils #:alexandria #:clgl #:local-time #:local-time-duration)
   :components ((:file "package")
                (:file "sound-viz"))
   :in-order-to ((test-op (test-op sound-viz.test))))
